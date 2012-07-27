@@ -12,4 +12,6 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+// create the view that will execute our animation
+
 @end

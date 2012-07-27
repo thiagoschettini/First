@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UIViewController{
+
+    UIImageView *campFireView;
+    UIImageView *timerClock;
+    
+}
+
+@property (nonatomic, retain) UIImageView *campFireView;
+
+@property (nonatomic, retain) UIImageView *timerClock;
+
+-(IBAction)playAnime:(id)sender;
 
 @end
